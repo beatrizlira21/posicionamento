@@ -1,0 +1,142 @@
+body{
+  background-color: var(--cinza);
+  font-family:'Dosis';
+  align-items: center;
+  margin: 0px;
+}
+
+h3, h4{
+  margin: 0px;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: var(--verde);
+  font-size: 40px;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  text-align: center;
+  justify-content: center;
+}
+
+.menubutton{
+  background: var(--salmaoclaro);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--verdeclaro);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--verde);  
+  font-weight: bold;
+}
+
+.mais{
+  background: var(--salmaomedio);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--verdemedio) ;
+  text-decoration: none;
+  color: var(--verde);  
+  font-weight: bold;
+}
+
+.descricao{
+  display: grid;
+  background-color: var(--salmaoclaro);
+  align-content: center;
+}
+
+.descricao2{
+  display: grid;
+  margin: 10px;
+  height: 200px;
+  justify-items: end;
+  text-align: end;
+}
+
+.intro{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  margin: 50px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.info{
+  font-size: 22px;
+}
+
+.onda{
+  position: absolute;
+  right: 47%;
+}
+
+.insidevantagens{
+  align-self: center;
+}
+
+.vantagens{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+  margin: 50px;
+  position: relative;
+  margin-top: 0px;
+}
+
+.txtvantagens{
+  font-size: 50px;
+  text-align: right;
+  padding: 20px;
+  color: var(--salmao);
+}
+
+.vantagenslist{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  background-color: var(--salmaoclaro);
+  height: 400px;
+  position: relative;
+}
+
+.qualitygrid{
+  background-color: var(--salmaoclaro);
+  padding: 20px;
+}
+
+.quality{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.quality p{
+  grid-column: 2;
+}
+
+h4{
+  font-size: 20px;
+}
+
+p{
+  font-size: 18px;
+  margin: 0px;
+}
+
+.footer{
+  background-color: var(--salmaoclaro);
+  font-size: 19px;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
